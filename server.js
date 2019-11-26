@@ -19,7 +19,7 @@ app.get('/', (request, response) => {
     response.send('welcome to my backend')
 })
 
-app.get('/home', (request, response) => {
+app.get('/root', (request, response) => {
     response.send('welcome to my backend')
 })
 
